@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w",
-    "dev": "nodemon dist/index.js",
+    "dev": "nodemon",
     "build": "tsc",
     "setup:extensions": "code --install-extension esbenp.prettier-vscode && code --install-extension dbaeumer.vscode-eslint && code --install-extension Prisma.prisma && code --install-extension CoenraadS.bracket-pair-colorizer-2 && code --install-extension aaron-bond.better-comments && code --install-extension eamodio.gitlens"
   },
@@ -19,7 +19,6 @@
   "devDependencies": {
     "@types/node": "^16.10.3",
     "nodemon": "^2.0.13",
-    "pino-colada": "^2.2.0",
     "prettier": "^2.4.1",
     "prisma": "^3.2.1",
     "ts-node": "^10.2.1",

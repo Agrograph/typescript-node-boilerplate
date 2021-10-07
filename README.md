@@ -8,10 +8,7 @@
 ## Getting Started
 
 - Install all packages by running `yarn`
-- Run `yarn watch` to create a `dist` folder at the project root, this will compile TypeScript each time you save, so keep the terminal running.
-- Next, in a new terminal, run `yarn dev` to start the nodemon server.
-
-Keep both terminal windows running as you write code. Each time you save, nodemon will rebuild automatically and restart the server.
+- Run `yarn dev` to create a `dist` folder at the project root, this will compile TypeScript each time you save, so keep the terminal running while writing code.
 
 ## VS Code extensions to install
 
