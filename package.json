@@ -1,0 +1,28 @@
+{
+  "name": "ts-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "build": "tsc",
+    "setup:extensions": "code --install-extension esbenp.prettier-vscode && code --install-extension dbaeumer.vscode-eslint && code --install-extension Prisma.prisma && code --install-extension CoenraadS.bracket-pair-colorizer-2 && code --install-extension aaron-bond.better-comments && code --install-extension eamodio.gitlens"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.2.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "nodemon": "^2.0.13",
+    "pino-colada": "^2.2.0",
+    "prettier": "^2.4.1",
+    "prisma": "^3.2.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
