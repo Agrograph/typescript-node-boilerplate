@@ -7,6 +7,7 @@
 
 ## Getting Started
 
+- This project uses `nvm` to handle node versions, once `nvm` is installed, run `nvm use` to use the correct version of node
 - Install all packages by running `yarn`
 - Run `yarn dev` to create a `dist` folder at the project root, this will compile TypeScript each time you save, so keep the terminal running while writing code.
 
